@@ -1,0 +1,96 @@
+<style>
+    .container {
+        padding: 2px;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: 600px;
+        width: 600px;
+        background-color: rgb(109, 231, 109);
+
+    }
+
+    .header {
+        background-color: green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+
+    }
+
+    .footer {
+        background-color: green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .middle {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        margin: 2px;
+        margin: 10px;
+    }
+
+    .aside {
+        background-color: greenyellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+        margin: 10px;
+    }
+
+    .one {
+        background-color: orangered;
+        height: 250px;
+        display: grid;
+        grid-template-rows: 10fr 1fr 1fr 1fr;
+        margin: 10px;
+    }
+
+    .article {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .two{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 2px;
+    }
+
+    .image{
+        background-color: orange;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        margin: 2px;
+    }
+</style>
+
+
+
+
+<div class="container">
+    <div class="header">Header</div>
+    <div class="middle">
+        <div class="aside">
+            Aside
+        </div>
+        <div class="one">
+            <div class="article">Article</div>
+            <div class="two">
+                <div class="image">Image</div>
+                <div class="image">Image</div>
+                <div class="image">Image</div>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">Footer</div>
+</div>
